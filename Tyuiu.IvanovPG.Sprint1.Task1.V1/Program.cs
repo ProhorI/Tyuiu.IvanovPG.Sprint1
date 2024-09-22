@@ -41,7 +41,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task1.V0
             a = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine("**************************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ: *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                                         *");
             Console.WriteLine("**************************************************************************************");
 
             //метод Calculate находится в библиотеке Tyuiu.IvanovPG.Sprint1.Task1.V0.Lib
