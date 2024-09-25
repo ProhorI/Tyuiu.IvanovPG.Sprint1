@@ -18,18 +18,16 @@ namespace Tyuiu.IvanovPG.Sprint1.Task3.V18
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ: *");
             Console.WriteLine("**************************************************************************************");
 
-            double a = 1;
-            double b = 2;
-            double c = 3;
+            double a = 6;
+            
             Console.WriteLine("первое число = " + a);
-            Console.WriteLine("второе число = " + b);
-            Console.WriteLine("третье число = " + c);
+            
 
             Console.WriteLine("**************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ: *");
             Console.WriteLine("**************************************************************************************");
 
-            Console.WriteLine(" = " + ds.MultiplyOfDigits(a * b * c));
+            Console.WriteLine(" = " + ds.MultiplyOfDigits(a));
 
             Console.ReadKey();
 
