@@ -38,12 +38,15 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V0
             Console.WriteLine("Введите значение r:");
             r = Convert.ToInt32(Console.ReadLine());
 
+            Math.Round(25.132741228718345, 3);
 
             Console.WriteLine("**************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                         *");
             Console.WriteLine("**************************************************************************************");
 
             Console.WriteLine("Обьем шара = " + ds.CalculateVolumeCircle(r));
+
+            Console.WriteLine(string.Format("{0:F3}", 25.132741228718345));
 
             Console.ReadLine();
         }
