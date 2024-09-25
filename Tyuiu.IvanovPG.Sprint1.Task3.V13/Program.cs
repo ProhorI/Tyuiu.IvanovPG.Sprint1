@@ -18,7 +18,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task3.V18
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ: *");
             Console.WriteLine("**************************************************************************************");
 
-            double a = 1 * 2 * 3;
+            double a = 6;
 
             Console.WriteLine("первое число = " + a);
 

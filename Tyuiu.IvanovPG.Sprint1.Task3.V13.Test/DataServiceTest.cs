@@ -9,7 +9,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task3.V13.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 1 * 2 * 3;
+            double x = 6;
             double wait = 6;
             var res = ds.MultiplyOfDigits(x);
             Assert.AreEqual(wait, res);
