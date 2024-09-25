@@ -4,9 +4,9 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V0.Lib
 {
     public class DataService : ISprint1Task2V9
     {
-        public double CalculateVolumeCircle(int r)
+        public double CalculateVolumeCircle(double r)
         {
-            return (4/3) * 3.14 * r * r * r;
+            return 4/3 * Math.PI * r * r * r;
         }
     }
 }

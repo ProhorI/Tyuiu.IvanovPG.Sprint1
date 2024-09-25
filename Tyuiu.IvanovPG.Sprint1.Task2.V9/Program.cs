@@ -38,6 +38,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V0
             Console.WriteLine("Введите значение r:");
             r = Convert.ToInt32(Console.ReadLine());
 
+
             Console.WriteLine("**************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                         *");
             Console.WriteLine("**************************************************************************************");
