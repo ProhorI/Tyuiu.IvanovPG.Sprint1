@@ -7,8 +7,6 @@
 
 namespace Tyuiu.IvanovPG.Sprint1.Task3.V0
 {
-    internal class Program
-    {
         static void Main(string[] args)
         {
             DataService ds = new DataService();
