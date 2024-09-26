@@ -6,10 +6,12 @@ namespace Tyuiu.IvanovPG.Sprint1.Task3.V13.Lib
     {
         public double MultiplyOfDigits(double number)
         {
-            return number;
+            return ;
         }
     }
 }
+
+
 //public double MultiplyOfDigits(double number)
 //{
 //    return number

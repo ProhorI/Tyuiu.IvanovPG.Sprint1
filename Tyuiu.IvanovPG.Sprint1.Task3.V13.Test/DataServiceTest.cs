@@ -10,7 +10,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task3.V13.Test
         {
             DataService ds = new DataService();
             double x = 123;
-            double wait = 123;
+            double wait = 6;
             var res = ds.MultiplyOfDigits(x);
             Assert.AreEqual(wait, res);
         }
