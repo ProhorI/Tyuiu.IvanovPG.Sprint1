@@ -12,9 +12,9 @@ namespace Tyuiu.IvanovPG.Sprint1.Task4.V15.Test
             double x = 3;
             double y = 3;
             //double wait = Math.Round(2017144, 3);
-            //double wait = Math.Round(1614.71517397094, 3);
+            double wait = Math.Round(2017.143967463675, 3);
             //double wait = 198241.19215326034;
-            double wait = 2017.144;
+            //double wait = 2017.144;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
 
