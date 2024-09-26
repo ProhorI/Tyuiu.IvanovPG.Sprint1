@@ -39,7 +39,6 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V0
             r = Convert.ToInt32(Console.ReadLine());
 
 ;
-
             Console.WriteLine("**************************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                                         *");
             Console.WriteLine("**************************************************************************************");
@@ -47,7 +46,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V0
             Console.WriteLine("Обьем шара = " + ds.CalculateVolumeCircle(r));
 
 
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }
