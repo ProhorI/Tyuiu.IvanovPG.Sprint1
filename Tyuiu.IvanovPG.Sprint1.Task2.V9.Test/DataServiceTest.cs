@@ -1,6 +1,6 @@
-using Tyuiu.IvanovPG.Sprint1.Task2.V0.Lib;
+using Tyuiu.IvanovPG.Sprint1.Task2.V9.Lib;
 
-namespace Tyuiu.IvanovPG.Sprint1.Task2.V0.Test
+namespace Tyuiu.IvanovPG.Sprint1.Task2.V9.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -11,7 +11,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V0.Test
             DataService ds = new DataService();
             int r = 6;
             var res = ds.CalculateVolumeCircle(r);
-            Assert.AreEqual(679, res);
+            Assert.AreEqual(678.584, res);
 
         }
     }
