@@ -9,9 +9,11 @@ namespace Tyuiu.IvanovPG.Sprint1.Task4.V15.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 3;
-            double y = 3;
-            double wait = 198241.19215326034;
+            double x = 1;
+            double y = 2;
+            double wait = Math.Round(1614.71517397094, 3);
+            //double wait = Math.Round(1614.71517397094, 3);
+            //double wait = 198241.19215326034;
             //double wait = 247069.358;
             var res = ds.Calculate(x, y);
             Assert.AreEqual(wait, res);
