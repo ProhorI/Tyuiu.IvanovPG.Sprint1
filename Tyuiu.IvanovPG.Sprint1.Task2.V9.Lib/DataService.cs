@@ -6,7 +6,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V9.Lib
     {
         public double CalculateVolumeCircle(int r)
         {
-            return 4 / 3 * Math.PI * Math.Pow(6, 3);
+            return 4 / 3 * 3.14 * Math.Pow(r, 3);
         }
     }
 }
