@@ -6,6 +6,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task3.V13.Lib
     {
         public double MultiplyOfDigits(double number)
         {
+            var num = Convert.ToString(number);
             return number;
         }
     }
