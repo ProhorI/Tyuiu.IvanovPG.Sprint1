@@ -11,7 +11,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V9.Test
             DataService ds = new DataService();
             int r = 6;
             var res = ds.CalculateVolumeCircle(r);
-            Assert.AreEqual(678.584, res);
+            Assert.AreEqual(904.779, res);
 
         }
     }
