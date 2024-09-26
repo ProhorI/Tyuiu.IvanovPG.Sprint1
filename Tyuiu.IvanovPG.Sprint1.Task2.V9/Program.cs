@@ -46,7 +46,6 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V0
 
             Console.WriteLine("Обьем шара = " + ds.CalculateVolumeCircle(r));
 
-            Console.WriteLine(string.Format("{0:F3}", 25.132741228718345));
 
             Console.ReadLine();
         }
