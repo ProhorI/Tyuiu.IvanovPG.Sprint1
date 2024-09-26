@@ -23,7 +23,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task4.V15
             int x, y;
 
             Console.WriteLine("Введите значение х:");
-            x = Convert.ToInt32(Console.ReadLine());
+            x = Convert.ToInt32(Console.ReadLine()) + ;
             Console.WriteLine("Введите значение y:");
             y = Convert.ToInt32(Console.ReadLine());
 
@@ -32,7 +32,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task4.V15
             Console.WriteLine("* РЕЗУЛЬТАТ: *");
             Console.WriteLine("**************************************************************************************");
 
-            Console.WriteLine("(x + y ^ 2) / e ^ 2 - 4 * y) = " + ds.Calculate(x, y) + Math.Round(2017.1444,3 ));
+            Console.WriteLine("(x + y ^ 2) / e ^ 2 - 4 * y) = " + ds.Calculate(x, y));
 
 
 
