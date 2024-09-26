@@ -8,7 +8,7 @@
 // Квадрат числа (целое число)
 
 
-namespace Tyuiu.IvanovPG.Sprint1.Task2.V0
+namespace Tyuiu.IvanovPG.Sprint1.Task2.V9
 {
     internal class Program
     {
