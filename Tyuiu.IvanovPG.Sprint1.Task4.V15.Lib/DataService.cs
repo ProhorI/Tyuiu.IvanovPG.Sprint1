@@ -9,7 +9,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task4.V15.Lib
         {
             var res = (x + Math.Pow(y, 2)) / Math.Pow(Math.E, 2 - 4 * y);
 
-            return res;
+            return Math.Round(res, 3);
         }
     }
 
