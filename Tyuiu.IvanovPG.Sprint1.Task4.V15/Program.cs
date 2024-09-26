@@ -23,7 +23,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task4.V15
             int x, y;
 
             Console.WriteLine("Введите значение х:");
-            x = Convert.ToInt32(Console.ReadLine()) + ;
+            x = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Введите значение y:");
             y = Convert.ToInt32(Console.ReadLine());
 
