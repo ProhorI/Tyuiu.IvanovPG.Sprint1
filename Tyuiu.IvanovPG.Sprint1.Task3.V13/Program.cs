@@ -1,4 +1,5 @@
 ﻿using Tyuiu.IvanovPG.Sprint1.Task3.V13.Lib;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 // ЗАДАНИЕ
 // Написать программу, которая запрашивает у пользователя исходные данные,
@@ -18,7 +19,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task3.V18
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ: *");
             Console.WriteLine("**************************************************************************************");
 
-            double a = 6;
+            double a = 123;
 
             Console.WriteLine("первое число = " + a);
 
