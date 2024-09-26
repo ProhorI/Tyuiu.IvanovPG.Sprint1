@@ -29,7 +29,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task3.V18
 
             Console.WriteLine(" результат = " + ds.MultiplyOfDigits(a));
 
-            Console.ReadKey();
+            Console.WriteLine();
 
         }
     }
