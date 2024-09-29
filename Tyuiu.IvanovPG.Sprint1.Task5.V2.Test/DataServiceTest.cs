@@ -11,13 +11,13 @@ namespace Tyuiu.IvanovPG.Sprint1.Task5.V2.Test
         [TestMethod]
         public void ValidExpression()
         {
-            double temp = 33;
+            double temp = 5;
             DataService ds = new DataService();
             double res = ds.FahrenheitTo—elsius(temp);
 
             int result = Convert.ToInt32(res);
 
-            int wait = 91;
+            int wait = -15;
             Assert.AreEqual(wait, result);
         }
     }

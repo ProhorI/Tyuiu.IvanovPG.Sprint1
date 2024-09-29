@@ -7,7 +7,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task5.V2.Lib
     {
         public int FahrenheitToСelsius(double temp)
         {
-            double res = temp * 9 / 5 + 32;
+            double res = (temp -  32) * 5 / 9;
             return (int)res;
         }
     }
