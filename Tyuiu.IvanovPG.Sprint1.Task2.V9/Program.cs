@@ -15,17 +15,37 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V9
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            double result;
+
+            Console.Title = "Спринт #1 | Выполнил: Иванов П.Г. | ИСТНБ-24-1";
+            // Длина строки 75 символом
+            Console.WriteLine("**************************************************************************************");
+            Console.WriteLine("* спринт #1                                                                          *");
+            Console.WriteLine("* Тема: Базовые навыки работы с C#                                                   *");
+            Console.WriteLine("* задание #2                                                                         *");
+            Console.WriteLine("* вариант #9                                                                         *");
+            Console.WriteLine("* выполнил: Иванов Прохор Геннадьевич | ИСТНБ-24-1                                   *");
+            Console.WriteLine("**************************************************************************************");
+            Console.WriteLine("* УСЛОВИЕ:                                                                           *");
+            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные,            *");
+            Console.WriteLine("* вычисляет результат по формуле (4/3) * 3.14 * r ^ 3 и печатает его на экран        *");
+            Console.WriteLine("*                                                                                    *");
+            Console.WriteLine("**************************************************************************************");
+            Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                                   *");
+            Console.WriteLine("**************************************************************************************");
 
 
-            int a = 6, b = 4;
+            int r;
+            Console.WriteLine("Введите значение r:");
+            r = Convert.ToInt32(Console.ReadLine());
 
-            int x = 30 / 6 + 4;
+;
+            Console.WriteLine("**************************************************************************************");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                                         *");
+            Console.WriteLine("**************************************************************************************");
 
-            a++;
+            Console.WriteLine("Обьем шара = " + ds.CalculateVolumeCircle(r));
 
-            x += b += a;
-            Console.WriteLine(x);
+
             Console.ReadKey();
         }
     }
