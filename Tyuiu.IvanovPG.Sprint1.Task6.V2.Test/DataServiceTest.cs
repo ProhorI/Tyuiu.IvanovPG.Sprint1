@@ -8,12 +8,10 @@ namespace Tyuiu.IvanovPG.Sprint1.Task6.V2.Test
         [TestMethod]
         public void ValidString()
         {
-            string strTest = "Hello, World";
             DataService ds = new DataService();
-            bool res = ds.CheckHello(strTest);
-            string wait = "World";
-            Assert.AreEqual(res, wait);
-
+            string x = "Привет друзья!";
+            var res = ds.CheckHello(x);
+            Assert.AreEqual(res, false);
         }
     }
 }

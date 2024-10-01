@@ -6,9 +6,7 @@ namespace Tyuiu.IvanovPG.Sprint1.Task6.V2.Lib
     {
         public bool CheckHello(string value)
         {
-            //value = value.Contains("Hello");
-            value = value.Contains("Hello");
-            return value;
+            return value.Contains("Hello");
         }
     }
 }
