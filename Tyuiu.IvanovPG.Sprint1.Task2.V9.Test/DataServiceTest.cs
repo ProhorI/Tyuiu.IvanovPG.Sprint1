@@ -8,10 +8,8 @@ namespace Tyuiu.IvanovPG.Sprint1.Task2.V9.Test
         [TestMethod]
         public void ValidExpression()
         {
-            DataService ds = new DataService();
-            int r = 6;
-            var res = ds.CalculateVolumeCircle(r);
-            Assert.AreEqual(904.779, res);
+            DataService dataService = new();
+            Assert.AreEqual(dataService.CalculateVolumeCircle(12), 7234.56);
 
         }
     }
